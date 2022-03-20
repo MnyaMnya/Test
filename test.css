@@ -28,8 +28,6 @@ table tr {
 }
 
 table td:first-child {
-    text-align: left;
-    padding-left: 20px;
     border-left: 0;
 }
 
