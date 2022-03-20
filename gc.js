@@ -1,4 +1,3 @@
-// Created by Tristan McCullen
 
 window.onload = function() {
     (function() {
