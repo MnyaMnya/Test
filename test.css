@@ -104,7 +104,7 @@ a:visited {
 }
 
 a:hover {
-    color: purple;
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
 }
