@@ -112,3 +112,8 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+title {
+    text-weight: bold;
+    font-size: 24px;
+}
