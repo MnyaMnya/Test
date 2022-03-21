@@ -7,10 +7,6 @@ table {
     caption-side: top;
 }
 
-table caption {
-    font-size: 20px;
-}
-
 table th {
     padding: 10px 35px;
     border-left: 1px solid #e0e0e0;
@@ -113,7 +109,7 @@ a:active {
     text-decoration: underline;
 }
 
-caption {
+.capt{
     text-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
 }
