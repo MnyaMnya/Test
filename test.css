@@ -109,7 +109,7 @@ a:active {
     text-decoration: underline;
 }
 
-.capt{
+#capt{
     text-weight: bold;
     font-size: 48px;
 }
