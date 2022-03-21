@@ -113,3 +113,6 @@ a:active {
     text-weight: bold;
     font-size: 48px !important;
 }
+#fixt{
+    table-layout:fixed;
+}
