@@ -1,7 +1,6 @@
 # Github is gud
 Ini adalah repo Ibrahim2340 jangan di ganggu :v<br/>
-`
-codenya sampah :v`
+`Dont blame the code,Blame yourself`
 <br/>
 -*Saya sendiri*
 <br/>
