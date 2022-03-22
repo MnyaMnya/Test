@@ -68,6 +68,7 @@ h1 {
     text-shadow: 5px 2px 4px grey;
     letter-spacing: 2px;
     padding: 2px;
+    color: #c93636;
 }
 
 #text1 b {
@@ -95,29 +96,48 @@ table a {
     font-weight: none;
 }
 
-a:visited {
-    color: black;
+li a:visited {
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(0, 0, 0);
+li a:hover {
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
 }
 
-a:active {
-    color: rgb(0, 0, 0);
+li a:active {
+    color: rgb(255, 255, 255);
     background-color: transparent;
-    text-decoration: nonre;
+    text-decoration: none;
 }
 
 #capt {
     text-weight: bold;
     font-size: 48px !important;
+    color: #e7e0e0;
+    text-shadow: 1px 1px #f3d2d2;
 }
 
 #fixt {
     table-layout: fixed;
+}
+
+html {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+p {
+    color: white;
+}
+
+.wa a {
+    color: azure;
+}
+
+ul {
+    color: white;
 }
