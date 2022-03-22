@@ -9,5 +9,5 @@ Ini adalah link website nya [Klik saya](https://mnyamnya.github.io/Test/).<br/>
 itu saja dulu bye<br/>
 ### Side note<br/>
 <ul>
-<li>Yang makai light theme belum bisa masuk:v</li>
+<li>Yang masib makai light theme maaf aku malas buat style nya :v</li>
 </ul>
