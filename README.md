@@ -10,6 +10,7 @@ itu saja dulu bye<br/>
 - [ ] Redo all the color
 - [ ] Add more data
 - [ ] Fullscreen img on-click
+- [ ] Change ViewerJS to pdf.js
 ### Side note
 <li>Yang masih memakai light theme maaf aku malas buat style nya :v</li> <br/>
 
