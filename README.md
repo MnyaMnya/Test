@@ -16,5 +16,5 @@ itu saja dulu bye<br/>
 - [ ] Fullscreen img on-click
 ### Side note<br/>
 <ul>
-<li>Yang masib makai light theme maaf aku malas buat style nya :v</li>
+<li>Yang masih memakai light theme maaf aku malas buat style nya :v</li>
 </ul>
