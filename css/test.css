@@ -1,3 +1,4 @@
+@media (prefers-color-scheme: dark) {
 table {
     font-family: Arial, Helvetica, sans-serif;
     color: #666;
@@ -139,4 +140,5 @@ p {
 
 ul {
     color: white;
+}
 }
