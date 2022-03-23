@@ -116,7 +116,7 @@ li a:active {
     text-decoration: none;
 }
 
-#capt {
+table caption {
     text-weight: bold;
     font-size: 48px !important;
     color: #e7e0e0;
