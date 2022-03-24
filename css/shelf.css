@@ -15,7 +15,6 @@ table tr td{
 }
 table tr:last-child td {
     border-bottom: #e0b070 0px solid;
-    background-image: url('/../img/tback.jpeg');
 }
 html {
     width: 786px;
@@ -23,7 +22,8 @@ html {
 table td{
     width: 200px;
     height: 300px;
-    padding: 25px;
+    padding: 25px
+    background-image: url('/../img/tback.jpeg');
 }
 h1{
     text-align: center;
