@@ -39,3 +39,9 @@ html,body{
     padding:0;
     margin: 0;
 }
+h1{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
