@@ -24,6 +24,7 @@ table tr:last-child td {
 
 html {
     width: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 table td {
@@ -50,6 +51,7 @@ body {
 
 h1 {
     text-align: center;
+    text-align-last: center;
     font-size: 75px;
     padding-left: 350px;
     padding-top: 25px;
