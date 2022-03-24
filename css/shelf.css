@@ -29,6 +29,6 @@ h1{
     font-size: 50px;
 }
 img:hover{
-    border: aqua 10px solid;
-    box-shadow: ;10px 20px 5px black
+    border: #79d3e0 10px solid;
+    padding: 15px;
 }
