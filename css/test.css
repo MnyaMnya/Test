@@ -150,7 +150,7 @@ ul {
 body {
     width:100%;
 }
-body,html{
+html, body{
     margin: 0;
     padding: 0;
 }
