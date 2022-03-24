@@ -3,20 +3,20 @@ table {
     background-image: url('../img/tback.jpeg');
     color: #666;
     text-shadow: 1px 1px 0px #fff;
-    border: #c58d43 25px solid;
     caption-side: top;
     width: 600px;
     text-align: center;
     border-spacing: 0;
+    border: #e0b070 25px solid;
     border-collapse: collapse;
 }
 
 table tr td {
-    border-bottom: #c58d43 25px solid;
+    border-bottom: #e0b070 25px solid;
 }
 
 table tr:last-child td {
-    border-bottom: #c58d43 0px solid;
+    border-bottom: #e0b070 0px solid;
 }
 
 html {
@@ -48,15 +48,10 @@ h1 {
     font-size: 75px;
     padding-left: 350px;
     padding-top: 25px;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
     background-color: orange;
     padding-right: 350px;
-    margin: 0;
     border: 0;
 }
 
-#menu {
-    padding-left: 15000px;
-    background-color: orange;
-    margin-bottom: 30px;
-}
+@media (prefers-color-scheme: dark) {}
