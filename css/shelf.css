@@ -9,6 +9,7 @@ table {
     border-spacing: 0;
     border: #e0b070 25px solid;
     border-collapse: collapse;
+    margin: 0 auto
 }
 
 table tr td {
@@ -31,6 +32,8 @@ table td {
 
 td:hover img {
     border: #79d3e0 10px solid;
+    -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
 }
 
 td:hover {
@@ -52,6 +55,40 @@ h1 {
     background-color: orange;
     padding-right: 350px;
     border: 0;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
-@media (prefers-color-scheme: dark) {}
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: black;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        background-color: black;
+    }
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
