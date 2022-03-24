@@ -18,7 +18,7 @@ table tr:last-child td {
     border-bottom: #e0b070 0px solid;
 }
 html {
-    width: 786px;
+    width: 800px;
 }
 table td{
     width: 200px;
@@ -34,4 +34,8 @@ td:hover img{
 }
 td:hover{
     padding: 15px;
+}
+html,body{
+    padding:0;
+    margin: 0;
 }

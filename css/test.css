@@ -150,4 +150,8 @@ ul {
 body {
     width:100%;
 }
+body,html{
+    margin: 0;
+    padding: 0;
+}
 }
