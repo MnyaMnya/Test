@@ -28,7 +28,9 @@ h1{
     text-align: center;
     font-size: 50px;
 }
-img:hover{
+td:hover img{
     border: #79d3e0 10px solid;
+}
+td:hover{
     padding: 15px;
 }
