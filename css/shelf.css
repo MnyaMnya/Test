@@ -23,7 +23,6 @@ table td{
     width: 200px;
     height: 300px;
     padding: 25px;
-    background-image: url(../img/tback.jpeg);
 }
 h1{
     text-align: center;
@@ -34,4 +33,7 @@ td:hover img{
 }
 td:hover{
     padding: 15px;
+}
+table tr{
+    background-image: url(../img/tback.jpeg);
 }
