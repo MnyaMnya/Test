@@ -8,6 +8,8 @@ table {
     text-align: center;
     border-spacing:0;
     border-collapse:collapse;
+    background-image: url(../img/tback.jpeg);
+
 }
 table tr td{
     background-color: #db9b46;
@@ -33,7 +35,4 @@ td:hover img{
 }
 td:hover{
     padding: 15px;
-}
-table tr{
-    background-image: url(../img/tback.jpeg);
 }
