@@ -18,7 +18,7 @@ table tr:last-child td {
     border-bottom: #e0b070 0px solid;
 }
 html {
-    width: 800px;
+    width:100%;
 }
 table td{
     width: 200px;
@@ -40,8 +40,9 @@ html,body{
     margin: 0;
 }
 h1{
-    width:800px;
+    padding-left: 350px;
     padding-top:25px;
     padding-bottom: 25px;
     background-color: orange;
+    padding-right: 350px;
 }
