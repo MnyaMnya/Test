@@ -37,4 +37,5 @@ td:hover{
 .
 #b1{
     background-image: url(../img/tback.jpeg);
+    background-repeat: no-repeat;
 }
