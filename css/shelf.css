@@ -40,8 +40,7 @@ html,body{
     margin: 0;
 }
 h1{
-    padding-left: 400px;
-    padding-right: 400px;
+    width:800px;
     padding-top:25px;
     padding-bottom: 25px;
     background-color: orange;
