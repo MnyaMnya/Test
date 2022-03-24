@@ -1,0 +1,15 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-shadow: 1px 1px 0px #fff;
+    border: #e0b070 1px solid;
+    caption-side: top;
+}
+table tr{
+    background-color: #db9b46;
+    border-top-width: 2px;
+    border-color: #e0b070 ;
+}
+table tr:last-child {
+    border-bottom: e0b070;
+}
