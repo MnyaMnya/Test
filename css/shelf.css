@@ -1,5 +1,6 @@
 table {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/tback.jpeg);
     color: #666;
     text-shadow: 1px 1px 0px #fff;
     border: #e0b070 25px solid;
@@ -33,9 +34,4 @@ td:hover img{
 }
 td:hover{
     padding: 15px;
-}
-.
-#b1{
-    background-image: url(../img/tback.jpeg);
-    background-repeat: no-repeat;
 }
