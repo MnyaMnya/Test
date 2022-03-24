@@ -56,14 +56,16 @@
         font-family: 'Trebuchet MS', sans-serif;
     }
     h1 {
-        text-shadow: 5px 2px 4px grey;
-        letter-spacing: 2px;
-        color: #c93636;
-        padding-left: 300px;
-        padding-right: 300px;
-        background-color: #d97427;
-        padding-top: 20px;
-        padding-bottom: 45px;
+        text-align: center;
+        font-size: 75px;
+        padding-left: 350px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: orange;
+        padding-right: 350px;
+        border: 0;
+        margin: auto;
+        margin-bottom: 50px;
     }
     #text1 b {
         text-shadow: 5px 2px 4px grey;
