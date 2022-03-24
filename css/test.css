@@ -69,13 +69,12 @@ html {
 h1 {
     text-shadow: 5px 2px 4px grey;
     letter-spacing: 2px;
-    padding: 2px;
     color: #c93636;
     padding-left: 300px;
     padding-right: 300px;
     background-color: #d97427;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 45px;
 }
 
 #text1 b {
