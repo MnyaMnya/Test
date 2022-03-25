@@ -1,8 +1,6 @@
 #div1 {
     background-image: url('../img/gquran.jpg');
     margin: 0 auto;
-    text-align: center;
-    text-align-last: center;
     font-size: 1.2em;
     padding-left: 200px;
     padding-top: 25px;
@@ -13,7 +11,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 #div1 img {
@@ -23,7 +20,6 @@
 h1 {
     line-height: 1.2;
     text-transform: uppercase;
-    text-align: center;
     font-family: "Alegreya", serif;
     text-decoration: none;
     text-shadow: 3px 3px 1px rgb(0 0 0 / 50%);
