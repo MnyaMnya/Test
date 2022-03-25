@@ -1,43 +1,116 @@
 #div1 {
-    width: 900px;
     background-image: url('../img/gquran.jpg');
-    text-shadow: 3px 3px 1px rgb(0 0 0 / 50%);
-    line-break: auto;
-    margin:0 auto;
+    margin: 0 auto;
+    text-align: center;
+    text-align-last: center;
+    font-size: 1.2em;
+    padding-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 200px;
+    border: 0;
+    margin-bottom: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+#div1 img {
+    margin: auto;
+}
+
 h1 {
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+    font-family: "Alegreya", serif;
+    text-decoration: none;
+    text-shadow: 3px 3px 1px rgb(0 0 0 / 50%);
 }
+
 #div1 p {
-    font:italic normal 1.2em georgia;
+    font: italic normal 1.2em georgia;
     text-align: center;
+    text-shadow: 0;
 }
+
 #div2 button {
-    background-color: gray;
+    background-color: rgb(206, 201, 201);
     border: 0;
-    padding-top: 5px;
-    padding-top: 5px;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 650px;
+    padding-right: 650px;
 }
+
+#div2 {
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: rgb(228, 167, 35) 10px solid;
+}
+
 #div3 {
     list-style-position: inside;
-    color:black;
-    display:none;
+    color: black;
+    display: none;
+    line-height: 20px;
+    margin: auto;
+    text-align: left;
+    font-family: "Alegreya", serif;
 }
+
 #h:hover {
     background-color: black;
     color: white;
 }
-htm,body {
+
+html,
+body {
     margin: 0;
     padding: 0;
-    border:0;
+    border: 0;
 }
+
 #h {
-    padding-right: 900px;
+    padding-right: 20px;
     background-color: white;
+}
+
+html {
+    width: 100%;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility !important;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+#toggle {
+    cursor: pointer;
+}
+
+#div1 a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#div1 a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#div1 a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#div1 a:link {
+    color: rgba(255, 255, 255, 0.644);
+    text-decoration: none;
+    font-family: "Alegreya", serif;
 }

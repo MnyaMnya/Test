@@ -63,6 +63,10 @@ h1 {
     margin-bottom: 50px;
     -webkit-animation: bounce-in-top 1.1s both;
     animation: bounce-in-top 1.1s both;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 @media (prefers-color-scheme: dark) {
