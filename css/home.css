@@ -45,10 +45,7 @@ h1 {
     display: block;
 }
 
-#div3,
-#div3 a:link,
-#div3 a:link,
-#div3 a:visited {
+#div3 {
     list-style-position: inside;
     color: rgb(255, 255, 255);
     display: none;
@@ -115,4 +112,11 @@ ul {
     color: rgba(255, 255, 255, 0.644);
     text-decoration: none;
     font-family: "Alegreya", serif;
+}
+
+#div3 a:link,
+#div3 a:active,
+#div3 a:visited {
+    color: inherit;
+    text-decoration: none;
 }
