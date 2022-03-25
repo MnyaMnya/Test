@@ -1,0 +1,43 @@
+#div1 {
+    width: 900px;
+    background-image: url('../img/gquran.jpg');
+    text-shadow: 3px 3px 1px rgb(0 0 0 / 50%);
+    line-break: auto;
+    margin:0 auto;
+}
+h1 {
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+#div1 p {
+    font:italic normal 1.2em georgia;
+    text-align: center;
+}
+#div2 button {
+    background-color: gray;
+    border: 0;
+    padding-top: 5px;
+    padding-top: 5px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+#div3 {
+    list-style-position: inside;
+    color:black;
+    display:none;
+}
+#h:hover {
+    background-color: black;
+    color: white;
+}
+htm,body {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+#h {
+    padding-right: 900px;
+    background-color: white;
+}
