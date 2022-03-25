@@ -2,7 +2,7 @@
     background-image: url('../img/gquran.jpg');
     margin: 0 auto;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
     padding-left: 350px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -29,11 +29,12 @@ h1 {
 #div2 button {
     background-color: rgb(206, 201, 201);
     border: 0;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     width: 100vw;
     left: -100vw;
     display: block;
+    font-size: 2.5em;
 }
 
 #div2 {
@@ -44,15 +45,20 @@ h1 {
     display: block;
 }
 
-#div3 {
+#div3,
+#div3 a:link,
+#div3 a:link,
+#div3 a:visited {
     list-style-position: inside;
     color: rgb(255, 255, 255);
     display: none;
-    line-height: 20px;
+    line-height: 40px;
     margin: 0 auto;
     text-align: left;
     font-family: "Alegreya", serif;
+    font-size: 2em;
     background-color: black;
+    text-decoration: none;
 }
 
 #h:hover {
