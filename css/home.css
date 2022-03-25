@@ -100,7 +100,7 @@ ul {
 #div1 a:visited,
 #div1 a:active,
 #div1 a:link {
-    color: rgb(102, 255, 72);
+    color: rgba(255, 255, 255, 0.747);
     text-decoration: none;
 }
 
@@ -114,4 +114,30 @@ ul {
 #div3 a:visited {
     color: inherit;
     text-decoration: none;
+}
+
+#div4 {
+    text-align: left;
+    line-break: auto;
+    background-color: rgb(228, 167, 35);
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 2.5em;
+    font-family: 'Alegreya', serif;
+}
+
+#div4 p {
+    color: rgba(128, 128, 128);
+    text-align: left;
+    margin: 0;
+}
+
+#div4 h2 {
+    text-align: center;
+}
+
+#div4 a:link,
+#div4 a:active,
+#div4 a:visited {
+    color: rgba(128, 128, 128);
 }
