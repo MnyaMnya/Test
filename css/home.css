@@ -11,8 +11,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-animation: bounce-in-top 1.1s both;
-    animation: bounce-in-top 1.1s both;
 }
 
 #div1 img {
@@ -47,6 +45,8 @@ h1 {
     display: block;
     margin-bottom: 25px;
     font-family: 'Alegreya', serif;
+}
+#div1, #div2 {
     -webkit-animation: bounce-in-top 1.1s both;
     animation: bounce-in-top 1.1s both;
 }
