@@ -1,8 +1,7 @@
 table {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('../img/tback.jpeg');
-    color: #666;
-    text-shadow: 1px 1px 0px #fff;
+    color: rgb(0, 0, 0);
     caption-side: top;
     width: 600px;
     text-align: center;
@@ -12,6 +11,7 @@ table {
     margin: 0 auto;
     -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    font-size: 25px;
 }
 
 table tr td {
