@@ -20,11 +20,6 @@ table tr:last-child td {
     border-bottom: #e0b070 0px solid;
 }
 
-html {
-    width: 100%;
-    font-family: 'Trebuchet MS', sans-serif;
-}
-
 table td {
     width: 200px;
     height: 300px;
@@ -39,10 +34,4 @@ td:hover img {
 
 td:hover {
     padding: 15px;
-}
-
-html,
-body {
-    padding: 0;
-    margin: 0;
 }
