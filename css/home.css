@@ -135,7 +135,7 @@ ul {
     text-align: left;
     line-break: auto;
     background-color: green;
-    width: 80vw;
+    width: 600px;
     margin: 0 auto;
     font-family: 'Alegreya', serif;
 }
@@ -163,7 +163,7 @@ ul {
     text-align: left;
     line-break: auto;
     background-color: green;
-    width: 80vw;
+    width: 600px;
     margin: 0 auto;
     font-family: 'Alegreya', serif;
 }
@@ -188,13 +188,15 @@ ul {
 }
 
 #footer {
-    width: 100%;
-    height: fit-content;
+    height: 70px;
     background-color: green;
     font-family: 'Alegreya', serif;
     color: white;
     margin-top: 20px;
     flex-shrink: 0;
+    width: 100vw;
+    left: -100vw;
+    display: block;
 }
 
 body {
