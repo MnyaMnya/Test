@@ -193,11 +193,13 @@ ul {
     background-color: green;
     font-family: 'Alegreya', serif;
     color: white;
-    margin-top: 20 auto;
+    margin-top: 20px;
+    flex-shrink: 0;
 }
 
 body {
-    display: box;
+    display: flex;
+    flex-direction: column;
 }
 
 #footer h3 {
@@ -215,6 +217,7 @@ footer p {
 #content {
     -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    flex: 1 0 auto;
 }
 
 @keyframes scale-up-center {
