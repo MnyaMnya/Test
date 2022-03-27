@@ -187,6 +187,34 @@ ul {
     font-size: 1.8em;
 }
 
+#div6 {
+    text-align: left;
+    line-break: auto;
+    background-color: green;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Alegreya', serif;
+}
+
+#div6 p {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+#div6 h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#div6 a:link,
+#div6 a:active,
+#div6 a:visited {
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+}
+
 #footer {
     height: 70px;
     background-color: green;
