@@ -197,8 +197,7 @@ ul {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: box;
 }
 
 #footer h3 {
