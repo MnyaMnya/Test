@@ -41,7 +41,7 @@
         margin: 0 auto;
         text-align: center;
         cursor: pointer;
-        border-bottom: #0bde35 10px solid;
+        border-bottom: #13c236 10px solid;
         display: block;
         margin-bottom: 25px;
         font-family: 'Alegreya', serif;
@@ -126,7 +126,7 @@
     #div4 {
         text-align: left;
         line-break: auto;
-        background-color: green;
+        background-color: #13c236;
         width: 800px;
         margin: 0 auto;
         font-family: 'Alegreya', serif;
@@ -154,7 +154,7 @@
     #div5 {
         text-align: left;
         line-break: auto;
-        background-color: green;
+        background-color: #13c236;
         width: 800px;
         margin: 0 auto;
         font-family: 'Alegreya', serif;
@@ -182,7 +182,7 @@
     #div6 {
         text-align: left;
         line-break: auto;
-        background-color: green;
+        background-color: #13c236;
         width: 800px;
         margin: 0 auto;
         font-family: 'Alegreya', serif;
@@ -211,7 +211,7 @@
         margin-top: 30px;
         height: 150px;
         padding-top: 5px;
-        background-color: #0bde35;
+        background-color: #13c236 ;
         font-family: 'Alegreya', serif;
         color: white;
         flex-shrink: 0;
