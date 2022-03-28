@@ -27,7 +27,7 @@ table td {
 }
 
 td:hover img {
-    border: #79d3e0 10px solid;
+    border: #13c236 10px solid;
     -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
     animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
 }

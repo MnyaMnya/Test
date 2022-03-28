@@ -23,6 +23,7 @@
         font-family: "Alegreya", serif;
         text-decoration: none;
         text-shadow: 3px 3px 1px rgb(0, 0, 0);
+        color:rgba(255, 255, 255, 0.801);
     }
     
     #div2 #toggle {
@@ -41,7 +42,7 @@
         margin: 0 auto;
         text-align: center;
         cursor: pointer;
-        border-bottom: #13c236 10px solid;
+        border-bottom: #158f2e 10px solid;
         display: block;
         margin-bottom: 25px;
         font-family: 'Alegreya', serif;
@@ -95,23 +96,16 @@
         cursor: pointer;
     }
     
-    #div1 a:visited,
-    #div1 a:active,
-    #div1 a:link {
-        color: rgba(255, 255, 255, 0.747);
+    a:visited,
+    a:active,
+    a:link {
+        color: inherit;
         text-decoration: none;
+        font-size: inherit;
     }
     
     #div1 a:hover {
         color: rgb(255, 255, 255) !important;
-        text-decoration: none;
-    }
-    
-    #div3 a:link,
-    #div3 a:active,
-    #div3 a:visited,
-    #div3 a:hover{
-        color: inherit;
         text-decoration: none;
     }
     
@@ -124,101 +118,57 @@
         margin: 0;
     }
     
-    #div4 {
+    .content {
         text-align: left;
         line-break: auto;
         background-color: #13c236;
         width: 800px;
-        margin: 0 auto;
         font-family: 'Alegreya', serif;
+        color: white;
     }
     
-    #div4 p {
-        color: rgb(255, 255, 255);
+    .content p {
         text-align: left;
         margin: 0;
         font-size: 1.8em;
     }
+    .content a{
+        font-size: 1.8em;
+    }
     
-    #div4 h2 {
+    .content h2 {
         text-align: center;
         font-size: 2.5em;
     }
-    
-    #div4 a:link,
-    #div4 a:active,
-    #div4 a:visited {
-        color: rgb(255, 255, 255);
-        font-size: 1.8em;
+    #div4{
+        margin-left: 2vw;
     }
-    
-    #div5 {
-        text-align: left;
-        line-break: auto;
-        background-color: #13c236;
-        width: 800px;
-        margin: 0 auto;
-        font-family: 'Alegreya', serif;
+    #div5{
+        margin-left: auto;
+        margin-right: 2vw;
     }
-    
-    #div5 p {
-        color: rgb(255, 255, 255);
-        text-align: left;
-        margin: 0;
-        font-size: 1.8em;
-    }
-    
-    #div5 h2 {
-        text-align: center;
-        font-size: 2.5em;
-    }
-    
-    #div5 a:link,
-    #div5 a:active,
-    #div5 a:visited {
-        color: rgb(255, 255, 255);
-        font-size: 1.8em;
-    }
-    
-    #div6 {
-        text-align: left;
-        line-break: auto;
-        background-color: #13c236;
-        width: 800px;
-        margin: 0 auto;
-        font-family: 'Alegreya', serif;
-    }
-    
-    #div6 p {
-        color: rgb(255, 255, 255);
-        text-align: left;
-        margin: 0;
-        font-size: 1.8em;
-    }
-    
-    #div6 h2 {
-        text-align: center;
-        font-size: 2.5em;
-    }
-    
-    #div6 a:link,
-    #div6 a:active,
-    #div6 a:visited {
-        color: rgb(255, 255, 255);
-        font-size: 1.8em;
+    #div6{
+        margin-left: 2vw;
     }
     
     #footer {
         margin-top: 30px;
-        height: 150px;
-        padding-top: 5px;
-        background-color: #13c236 ;
+        height: 85px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        background-color: #158f2e ;
         font-family: 'Alegreya', serif;
         color: white;
         flex-shrink: 0;
         width: 100vw;
         position: absolute;
         bottom: 0;
+        padding-left: 4vw;
+    }
+    #footer img{
+        -webkit-filter: invert(100%);
+        float: left;
+        padding-right: 1vw;
     }
     
     html,
@@ -228,14 +178,12 @@
         border: 0;
         height: 100%;
     }
-    
-    #footer h3 {
-        font-size: 2em;
-        margin-bottom: 0;
+    #footer a{
+        font-size: 1.8em;
     }
     
     #body {
-        padding-bottom: 335px;
+        padding-bottom: 140px;
     }
     
     footer p {
