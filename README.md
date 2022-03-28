@@ -12,6 +12,5 @@ itu saja dulu bye<br/>
 - [ ] Fullscreen img on-click
 - [x] ~~Change ViewerJS to pdf.js~~
 ### Side note
-LOL
 <li>Yang masih memakai light theme maaf aku malas buat style nya :v</li> <br/>
 
