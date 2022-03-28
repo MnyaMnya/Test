@@ -109,7 +109,8 @@
     
     #div3 a:link,
     #div3 a:active,
-    #div3 a:visited {
+    #div3 a:visited,
+    #div3 a:visited{
         color: inherit;
         text-decoration: none;
     }
