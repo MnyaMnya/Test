@@ -206,6 +206,17 @@
     #div6{
         margin-left: 2vw;
     }
+    #b{
+        text-align: center;
+        font-family: 'Alegreya', serif;
+    }
+    #b h3{
+        font-size: 4.8em;
+        margin: 0;
+        letter-spacing: 10px;
+        padding:0;
+        border:0;
+    }
     
     #footer {
         margin:0;
