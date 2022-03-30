@@ -183,10 +183,7 @@
         width: 800px;
         font-family: 'Alegreya', serif;
         color: white;
-    }
-    .content:hover{
-        -webkit-animation: scale-up-center2 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
-        animation: scale-up-center2 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate both;
+        padding-left: 2vw;
     }
     
     .content p {
@@ -263,6 +260,12 @@
         padding: 0;
         border: 0;
         font-size: 1.8em;
+    }
+    #tex{
+        display: none;
+    }
+    #red1{
+        display:none;
     }
     
     #content{

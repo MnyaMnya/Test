@@ -8,4 +8,8 @@ $(document).ready(function() {
     $("#hb").click(function() {
         $("#pai").slideToggle("slow");
     });
+    $(".read").click(function() {
+        $("#tex").slideToggle("fast");
+        $(".read").slideToggle("fast");
+    });
 });
