@@ -38,6 +38,7 @@
         font-family: 'Alegreya', serif;
         margin: 0;
         float: left;
+        color: darkred;
     }
     
     #div2 #buletin {
@@ -52,6 +53,7 @@
         margin: 0;
         cursor: pointer;
         float: left;
+        color: darkred;
     }
     
     #div2 #video {
@@ -66,6 +68,7 @@
         margin: 0;
         cursor: pointer;
         float: left;
+        color: darkred;
     }
     
     #div2 #exkul {
@@ -79,6 +82,7 @@
         font-family: 'Alegreya', serif;
         margin: 0;
         cursor: pointer;
+        color: darkred;
     }
     
     #div2 #dokumentasi {
@@ -93,6 +97,7 @@
         margin: 0;
         cursor: pointer;
         float: left;
+        color: darkred;
     }
     
     #div2 {
@@ -194,10 +199,10 @@
     .content {
         text-align: left;
         line-break: auto;
-        background-color: #37bb51;
+        background-color: rgb(170, 149, 56);
         width: 800px;
         font-family: 'Alegreya', serif;
-        color: white;
+        color: rgb(0, 0, 0);
         padding-left: 2vw;
     }
     
@@ -214,7 +219,7 @@
     .content h2 {
         text-align: center;
         font-size: 2.5em;
-        color: black;
+        color: rgb(32, 122, 9);
     }
     
     #div4 {
