@@ -267,6 +267,11 @@
         background-size: cover;
         padding-top: 25px;
     }
+    @media screen and (orientation:portrait) {
+        #footer{
+            height: max-content;
+        }
+    }
     
     @keyframes scale-up-center {
         0% {
