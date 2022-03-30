@@ -3,6 +3,9 @@ $(document).ready(function() {
         $("#div3").slideToggle("slow");
     });
     $("#ha").click(function() {
-        $("#div3a").slideToggle("slow");
+        $("#Paiskul").slideToggle("slow");
+    });
+    $("#hb").click(function() {
+        $("#pai").slideToggle("slow");
     });
 });
