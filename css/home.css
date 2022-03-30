@@ -209,6 +209,9 @@
     #b{
         font-family: 'Alegreya', serif;
     }
+    #b img{
+        padding-left: 4vw;
+    }
     
     #footer {
         margin:0;
