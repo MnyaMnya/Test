@@ -203,6 +203,7 @@
     }
     
     #footer {
+        margin:0;
         margin-top: 30px;
         height: 85px;
         padding-top: 10px;
@@ -211,7 +212,7 @@
         font-family: 'Alegreya', serif;
         color: white;
         flex-shrink: 0;
-        width: 100vw;
+        width: 96vw;
         position: absolute;
         bottom: 0;
         padding-left: 4vw;
