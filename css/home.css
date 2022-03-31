@@ -134,6 +134,7 @@
     .h {
         background-color: rgb(255, 255, 255);
         width: 100vw;
+        font-size: 0.7em;
     }
     
     html {
