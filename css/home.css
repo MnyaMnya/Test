@@ -126,7 +126,6 @@
         font-size: 0.7em;
     }
     
-    
     #div3 .h:hover {
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
@@ -200,11 +199,13 @@
     .content {
         text-align: left;
         line-break: auto;
-        background-color: rgb(170, 149, 56);
+        background-color: rgb(55, 126, 70);
         width: 800px;
         font-family: 'Alegreya', serif;
         color: rgb(0, 0, 0);
         padding-left: 2vw;
+        border: yellow 5px dashed;
+        margin-bottom: 20px;
     }
     
     .content p {
@@ -220,7 +221,7 @@
     .content h2 {
         text-align: center;
         font-size: 2.5em;
-        color: rgb(32, 122, 9);
+        color: rgb(255, 255, 255);
     }
     
     #div4 {
