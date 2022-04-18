@@ -21,7 +21,7 @@ body {
 
 @keyframes lul {
     0% {
-        transform: translate(0vw, 0vh) rotate(0deg);
+        transform: translate(0vw, 0vh)
     }
     25% {
         transform: translate(0vw, calc(100vh - 100px));

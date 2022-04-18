@@ -116,27 +116,22 @@
         display: none;
         margin: 0;
         text-align: left;
-        font-size: 2.5em;
         background-color: rgb(255, 255, 255);
         text-decoration: none;
         width: 100vw;
     }
-    
-    #div3a {
-        font-size: 0.7em;
-    }
-    
     #div3 .h:hover {
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
+    }
+    ul {
+        font-size: 2.1em;
     }
     
     .h {
         background-color: rgb(255, 255, 255);
         width: 100vw;
-        font-size: 1em;
     }
-    
     html {
         width: 100vw;
         -webkit-font-smoothing: antialiased;
@@ -247,7 +242,6 @@
     
     #pai {
         display: none;
-        font-size: 1em;
     }
     
     #footer {
