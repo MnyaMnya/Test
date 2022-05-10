@@ -186,10 +186,6 @@
         margin-left: 7vw;
         text-align: center;
     }
-    li{
-        font-size :36px;
-    }
-    
     .content {
         text-align: left;
         line-break: auto;
@@ -241,7 +237,6 @@
     
     #pai {
         display: none;
-        padding-bottom: 15px;
         font-size: 60px;
     }
     
