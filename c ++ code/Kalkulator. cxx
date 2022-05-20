@@ -1,0 +1,74 @@
+#include <iostream>
+#include <string>
+#include <time.h>
+#include <math.h>
+using namespace std;
+void PS( unsigned int unNanosecondsIn )
+{
+clock_t wait_nanoseconds = (clock_t) unNanosecondsIn;
+clock_t start_time = clock();
+while( clock() != start_time + wait_nanoseconds );
+return;
+}
+void test(){
+	 string load;
+	 load = "Loading";
+	 cout << "\r" << load << flush;
+	 PS (500000);
+	 load = "Loading.";
+	 cout << "\r" << load << flush;
+	 PS (500000);
+	 load = "Loading..";
+	 cout << "\r" << load << flush;
+	 PS (500000);
+	 load = "Loading...";
+	 cout << "\r" << load << flush;
+	 PS (500000);
+	 load = "Done!     ";
+	 cout << "\r" << load << flush;
+}
+int main(){
+	cout << "Gunakan + - / x % ^ untuk operasi mtk" << endl;
+	PS (20000);
+	long double a, d;
+	cout << "Masukkan nomor: ";
+	cin >> a;
+	string b;
+	line1:
+	cout << "Masukkan operasi: ";
+	cin >> b;
+	long double c;
+	cout << "Masukkan nomor: ";
+	cin >> c;
+	int i;
+	i = 1;
+	while (i == 1){
+		test();
+		i = 2;
+	}
+	if (b == "+"){
+		d = a + c;
+	}
+	if (b == "-"){
+		d = a - c;
+	}
+	if (b == "x"){
+		d = a * c;
+	}
+	if (b == "/"){
+		d = a / c;
+	}
+	if (b == "%"){
+		d = fmod(a,c);
+	}
+		if (b == "^"){
+		d = pow(a, c);
+	}
+	if (d == 69){
+		cout << endl<< "nais 69 ;v"<< endl;
+	}
+	else{
+	cout << endl << "Jawabanya adalah: " << d << endl;}
+	a = d;
+	goto line1;
+}
