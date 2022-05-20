@@ -6,7 +6,7 @@ int main()
 	long double z=0,x=1;
 	line1:
 	long double a,b=1,i=1,c,d=1,f,g=1;
-	cout << "Ketik nilai yang akan di faktorisasi: ";
+	cout << "Ketik nilai yang akan di faktorialkan: ";
 	cin >> a;
 	while (i < a){
 		i++;

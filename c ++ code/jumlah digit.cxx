@@ -6,13 +6,14 @@ int main(){
 	int r,n; //r referensi n nilai
 	string s;
 	line1:
+    n = 0;
 	cout << "Ketik nilai terkecil: ";
 	cin >> a;
 	cout << "Ketik nilai terbesar: ";
 	cin >> b;
 	while (a <= b){
 	s = to_string(a);
-	//cout << "nilai s =" << s << endl;
+	//cout << "nilai s = " << s << endl;
 	r = s.size();
 	//cout << "nilai r = " << r << endl;
 	a++;

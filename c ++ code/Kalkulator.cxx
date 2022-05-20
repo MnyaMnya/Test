@@ -2,6 +2,7 @@
 #include <string>
 #include <time.h>
 #include <math.h>
+#include <stdlib.h>
 using namespace std;
 void PS( unsigned int unNanosecondsIn )
 {
@@ -14,22 +15,40 @@ void test(){
 	 string load;
 	 load = "Loading";
 	 cout << "\r" << load << flush;
-	 PS (500000);
+	 PS (500);
 	 load = "Loading.";
 	 cout << "\r" << load << flush;
-	 PS (500000);
+	 PS (500);
 	 load = "Loading..";
 	 cout << "\r" << load << flush;
-	 PS (500000);
+	 PS (500);
 	 load = "Loading...";
 	 cout << "\r" << load << flush;
-	 PS (500000);
-	 load = "Done!     ";
-	 cout << "\r" << load << flush;
+	 PS (500);
+	 system("cls");
+}
+void six(){
+    for(int i=1;i<600;i++){
+cout << "666666666666666666666666666666";
+    }
+PS (3000);
+system("cls");
+cout << "Who Are You?";
+PS (3000);
+system("cls");
+cout << "Why Are You Here?";
+PS (3000);
+system("cls");
+cout << "Stop!";
+for(int i=1;i<6000;i++){
+cout << "!!!!!!!!!!!!!";
+}
+PS (3000);
+system("cls");
+terminate();
 }
 int main(){
 	cout << "Gunakan + - / x % ^ untuk operasi mtk" << endl;
-	PS (20000);
 	long double a, d;
 	cout << "Masukkan nomor: ";
 	cin >> a;
@@ -43,7 +62,6 @@ int main(){
 	int i;
 	i = 1;
 	while (i == 1){
-		test();
 		i = 2;
 	}
 	if (b == "+"){
@@ -65,10 +83,18 @@ int main(){
 		d = pow(a, c);
 	}
 	if (d == 69){
-		cout << endl<< "nais 69 ;v"<< endl;
+		cout << "nais 69 ;v"<< endl;
+	}
+	if (d == 666){
+	    d = 0;
+            system("cls");
+            system("color 4e");
+            six();
 	}
 	else{
-	cout << endl << "Jawabanya adalah: " << d << endl;}
+            system("cls");
+            test();
+	cout << "Jawabanya adalah: " << d << endl;}
 	a = d;
 	goto line1;
 }
