@@ -4,9 +4,9 @@
 #include <math.h>
 #include <stdlib.h>
 using namespace std;
-void PS( unsigned int unNanosecondsIn )
+void PS( unsigned int Nanoseconds )
 {
-clock_t wait_nanoseconds = (clock_t) unNanosecondsIn;
+clock_t wait_nanoseconds = (clock_t) Nanoseconds;
 clock_t start_time = clock();
 while( clock() != start_time + wait_nanoseconds );
 return;
