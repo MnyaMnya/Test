@@ -3,6 +3,8 @@
 #include <time.h>
 #include <math.h>
 #include <stdlib.h>
+#include <cwchar>
+#include <windows.h>
 using namespace std;
 void PS( unsigned int Nanoseconds )
 {
@@ -39,10 +41,17 @@ system("cls");
 cout << "Why Are You Here?";
 PS (3000);
 system("cls");
-cout << "Stop!";
-for(int i=1;i<6000;i++){
-cout << "!!!!!!!!!!!!!";
-}
+CONSOLE_FONT_INFOEX cfi;
+cfi.cbSize = sizeof(cfi);
+cfi.nFont = 0;
+cfi.dwFontSize.X = 0;                   // Width of each character in the font
+cfi.dwFontSize.Y = 24;                  // Height
+cfi.FontFamily = FF_DONTCARE;
+cfi.FontWeight = FW_NORMAL;
+std::wcscpy(cfi.FaceName, L"Consolas"); // Choose your font
+SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
+
+cout << "Stop!!!!!";
 PS (3000);
 system("cls");
 terminate();
@@ -84,6 +93,28 @@ int main(){
 	}
 	if (d == 69){
 		cout << "nais 69 ;v"<< endl;
+		line2:
+    PS(100);
+    system("color 1e");
+    PS1300);
+    system("color 2e");
+    PS(100);
+    system("color 3e");PS(100);
+    system("color 4e");PS(100);
+    system("color 5e");PS(100);
+    system("color 6e");PS(100);
+    system("color 7e");PS(100);
+    system("color 8e");PS(100);
+    system("color 9e");PS(100);
+    system("color ae");PS(100);
+    system("color be");PS(100);
+    system("color ce");PS(100);
+    system("color de");
+    PS(100);
+    system("color ee");
+    PS(100);
+    system("color fe");
+    goto line2;
 	}
 	if (d == 666){
 	    d = 0;
