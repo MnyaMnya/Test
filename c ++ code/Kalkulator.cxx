@@ -96,7 +96,7 @@ int main(){
 		line2:
     PS(100);
     system("color 1e");
-    PS1300);
+    PS(100);
     system("color 2e");
     PS(100);
     system("color 3e");PS(100);
