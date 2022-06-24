@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iostream>
 #include <string>
 #include <time.h>
 #include <math.h>
@@ -51,13 +52,24 @@ sleep (3000);
 system("cls");
 terminate();
 }
+
 int main(){
 	string user,pass,mypass,reg;
-	cout << "Apakah anda sudah register? [Y/N]"<<endl;
+	fstream txtsize("size.txt");
+	string ssize,line;
+	getline (txtsize, ssize);
+	int size = stoi(ssize);
+	fstream txtuser("user.txt");
+	string username[size+1];
+		for(int i=0;i<size;i++){
+			getline (txtuser,line);
+			username[i]=line;
+		}
+	cout << "Apakah anda ingin register atau check akun atau melihat list[R/C/L]"<<endl;
 	cout << "Ketik Input anda: ";
 	cin >> reg;
 	system("cls");
-	if (reg =="Y" || reg=="y"){
+	if (reg =="C" || reg=="c"){
 		cout << "Ketik Username anda: ";
 		cin >> user;
 		ifstream txt(user+".txt");
@@ -70,84 +82,35 @@ int main(){
 		six();
 	}
 	}
-	if (reg =="N" || reg=="n"){
-		cout << "Mohon Maaf anda harus register terlebih dahulu"<<endl;
-		sleep(1);
-		terminate();
+	if (reg =="R" || reg=="r"){
+		cout << "Ketik Username anda: ";
+		cin >> user;
+		ofstream txt(user+".txt");
+		cout << "Ketik Password anda: ";
+		cin >> pass;
+		txt << pass;
+		for(int i=0;i<size;i++){
+			if (user == username[i]){
+				cout << "User ini sudah register"<<endl;
+				terminate();
+			}
+		}
+		size += 1;
+		ofstream txtsizes("size.txt");
+		txtsizes<<size;
+		username[size-1]= user;
+		for(int i=0;i<size;i++){
+			txtuser<<username[i];
+		}
+	}
+	if (reg =="L" || reg=="l"){
+		cout << "list user yang diregistrasi:"<<"["<<size<<"]" <<endl;
+		for(int i=0;i<size;i++){
+			cout << username[i]<<endl;
+		}
+		cin >> reg;
 	}
 	system("cls");
 	cout << "Login Sebagai:"<<user<<endl;
 	test();
-	system("cls");
-	cout << "Gunakan + - / x % ^ untuk operasi mtk" << endl;
-	long double a, d;
-	cout << "Masukkan nomor: ";
-	cin >> a;
-	string b;
-	line1:
-	cout << "Masukkan operasi: ";
-	cin >> b;
-	long double c;
-	cout << "Masukkan nomor: ";
-	cin >> c;
-	int i;
-	i = 1;
-	while (i == 1){
-		i = 2;
-	}
-	if (b == "+"){
-		d = a + c;
-	}
-	if (b == "-"){
-		d = a - c;
-	}
-	if (b == "x"){
-		d = a * c;
-	}
-	if (b == "/"){
-		d = a / c;
-	}
-	if (b == "%"){
-		d = fmod(a,c);
-	}
-		if (b == "^"){
-		d = pow(a, c);
-	}
-	if (d == 69){
-		cout << "nais 69 ;v"<< endl;
-		line2:
-    sleep(1);
-    system("color 1e");
-    sleep(1);
-    system("color 2e");
-    sleep(1);
-    system("color 3e");sleep(1);
-    system("color 4e");sleep(1);
-    system("color 5e");sleep(1);
-    system("color 6e");sleep(1);
-    system("color 7e");sleep(1);
-    system("color 8e");sleep(1);
-    system("color 9e");sleep(1);
-    system("color ae");sleep(1);
-    system("color be");sleep(1);
-    system("color ce");sleep(1);
-    system("color de");
-    sleep(1);
-    system("color ee");
-    sleep(1);
-    system("color fe");
-    goto line2;
-	}
-	if (d == 666){
-	    d = 0;
-            system("cls");
-            system("color 4e");
-            six();
-	}
-	else{
-            system("cls");
-            test();
-	cout << "Jawabanya adalah: " << d << endl;}
-	a = d;
-	goto line1;
 }
