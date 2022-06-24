@@ -42,32 +42,6 @@ void quit(){
 	 terminate();
 }
 void six(){
-    /*for(int i=1;i<600;i++){
-cout << "666666666666666666666666666666";
-    }
-sleep (3);
-system("cls");
-cout << "Who Are You?";
-sleep (3);
-system("cls");
-cout << "Why Are You Here?";
-sleep (3);
-system("cls");
-CONSOLE_FONT_INFOEX cfi;
-cfi.cbSize = sizeof(cfi);
-cfi.nFont = 0;
-cfi.dwFontSize.X = 0;                   // Width of each character in the font
-cfi.dwFontSize.Y = 24;                  // Height
-cfi.FontFamily = FF_DONTCARE;
-cfi.FontWeight = FW_NORMAL;
-std::wcscpy(cfi.FaceName, L"Consolas"); // Choose your font
-SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
-
-cout << "Stop!!!!!";
-sleep (3000);
-system("cls");
-terminate();
-*/
 system("cls");
 cout << "Password anda salah";
 sleep(1);
@@ -129,6 +103,7 @@ int main(){
 			cout << "User ini sudah register"<<endl<<"Apakah anda mau mengganti Password? [Y/N]"
 			<<endl<<"Ketik input anda:";
 			cin >> cpass;
+			system("cls");
 			if (cpass == "n" || cpass == "N")
 			{
 				cout << "Quitting.."<<endl;
@@ -198,6 +173,7 @@ int main(){
 		goto line1;
 	}
 	system("cls");
-	cout << "Login Sebagai:"<<user<<endl;
-	test();
+	cout << "Login Sukses "<<user<<"!"<< endl;
+	system("cls");
+	quit();
 }
