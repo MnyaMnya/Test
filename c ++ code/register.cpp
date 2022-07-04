@@ -71,8 +71,24 @@ int main(){
 	system("cls");
 	if (reg =="C" || reg=="c")
 	{
+		linec:
 		cout << "Ketik Username anda: ";
 		cin >> user;
+		for(int i=0;i<size;i++)
+		{
+		if (user == username[i])
+		{
+			x=true;
+		}
+		else{}
+		}
+		if (x != true){
+			system("cls");
+			cout << "User Ini Belum Registrasi";
+			sleep(2);
+			system("cls");
+			goto linec;
+		}
 		ifstream txt(user+".txt");
 		cout << "Ketik Password anda: ";
 		cin >> pass;
@@ -135,6 +151,7 @@ int main(){
 			{
 				cout << "Input ini tidak bisa dipakai"<<endl;
 				sleep(1);
+				system("cls");
 				goto line2;
 			}
 			
@@ -170,6 +187,7 @@ int main(){
 	else {
 		cout << "Input ini tidak bisa dipakai"<<endl;
 		sleep(1);
+		system("cls");
 		goto line1;
 	}
 	system("cls");
