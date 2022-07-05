@@ -55,6 +55,10 @@ int main(){
 	fstream txtsize("size.txt");
 	string ssize,line;
 	getline (txtsize, ssize);
+	if(ssize == ""){
+		ssize = "0";
+	}
+	else{}
 	int size = stoi(ssize);
 	fstream txtuser;
 	txtuser.open("user.txt");
