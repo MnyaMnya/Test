@@ -51,7 +51,7 @@ sleep (3000);
 system("cls");
 terminate();
 }
-int main(){
+void login(){
 	string user,pass,mypass,reg;
 	cout << "Apakah anda sudah register? [Y/N]"<<endl;
 	cout << "Ketik Input anda: ";
@@ -79,6 +79,10 @@ int main(){
 	cout << "Login Sebagai:"<<user<<endl;
 	test();
 	system("cls");
+}
+int main(){
+	login();
+	
 	cout << "Gunakan + - / x % ^ untuk operasi mtk" << endl;
 	long double a, d;
 	cout << "Masukkan nomor: ";
