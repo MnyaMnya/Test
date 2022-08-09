@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string.h>
+#include <math.h>
+using namespace std;
+int main (){
+	long int a,b,res=0,bpi;
+	char bin[20];
+	cout << "Ketik Nilai Binary: ";
+	cin >> bin;
+	cout << "Ketik Nilai Basis: ";
+	cin >> b;
+	a = strlen(bin);
+	int x = a-1;
+	for (int i=0;i<=a-1;i++){
+		if (bin[x]== '1'){
+			bpi = pow(b,i);
+			res = res + bpi;
+			}
+			x--;
+		}
+		cout << "Jawabanya adalah: "<< res << endl;
+}
