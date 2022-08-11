@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 int counter=0;
-char txt[50],checker;
+char txt[5000],checker;
 cout << "Ketik Textnya: ";
 cin >> txt;
 cout << "Ketik Huruf yang mau dicari: ";
