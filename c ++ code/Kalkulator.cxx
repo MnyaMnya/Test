@@ -83,15 +83,14 @@ void login(){
 int main(){
 	login();
 	
-	cout << "Gunakan + - / x % ^ untuk operasi mtk" << endl;
-	long double a, d;
+	cout << "Gunakan + - / x % ^ v untuk operasi mtk" << endl;
+	long double a,c,d;
 	cout << "Masukkan nomor: ";
 	cin >> a;
 	string b;
 	line1:
 	cout << "Masukkan operasi: ";
 	cin >> b;
-	long double c;
 	cout << "Masukkan nomor: ";
 	cin >> c;
 	int i;
@@ -116,6 +115,11 @@ int main(){
 	}
 		if (b == "^"){
 		d = pow(a, c);
+	}
+	if (b == "v"){
+		if (c=2){
+		d = sqrt(a);
+		}
 	}
 	if (d == 69){
 		cout << "nais 69 ;v"<< endl;

@@ -12,5 +12,5 @@ int fac(int a)
 int main()
 {
 	int a;
-	a = fac()
+	a = fac(2);
 }
