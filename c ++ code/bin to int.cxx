@@ -8,8 +8,7 @@ int main (){
 	line1:
 	cout << "Ketik Nilai Binary: ";
 	cin >> bin;
-	cout << "Ketik Nilai Basis: ";
-	cin >> b;
+	b=2;
 	a = strlen(bin);
 	int x = a-1;
 	for (int i=0;i<=a-1;i++){

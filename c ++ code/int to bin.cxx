@@ -7,8 +7,10 @@ int main(){
 	string bin="";
 	cout << "Ketik nilai yang mau di biner kan:";
 	cin >> a;
-	cout << "Biner basis brp: ";
+	/*cout << "Biner basis brp: ";
 	cin >> b;
+	*/
+b=2;
 	while (a >= 1){
 			ref = a;
 			a= a/b;
