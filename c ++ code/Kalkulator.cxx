@@ -154,7 +154,7 @@ int main(){
 	}
 	else{
             system("cls");
-            test();
+            //test();
 	cout << "Jawabanya adalah: " << d << endl;}
 	a = d;
 	goto line1;
