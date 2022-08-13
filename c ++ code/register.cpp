@@ -237,6 +237,7 @@ int main(){
 	}
 	system("cls");
 	cout << "Login Sukses "<<user<<"!"<< endl;
+	sleep(2);
 	system("cls");
 	quit();
 }
