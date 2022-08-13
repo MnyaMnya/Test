@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <stdlib.h>
+#include <windows.h>
 using namespace std;
 int main(){
     string exit;
@@ -29,8 +30,10 @@ int main(){
         cout << a[i][x] << ", ";
         }
     }
+    
 cout << "}" << endl;
 }
+line2:
 cout << "Jenis operasi: invers, tambah" << endl;
 cout << "Masukkan jenis operasi: ";
 cin >> operasi;
@@ -71,9 +74,15 @@ if (operasi == "tambah") {
         cout << c[i][x] << ", ";
         }
     }
+    
 cout << "}" << endl;
 }
 }
+else{
+        cout << "Input salah";
+        system("cls");
+        goto line2;
+    }
 cout <<"apakah mau di lanjutkan?[Y / N]"<<endl;
 cout << "Waiting for input: ";
 cin >> exit;

@@ -22,7 +22,7 @@ int main() {
     }
     for (int i=0;i<size-1;i++){
         if(nilai[size-1]==nilai[i]){
-            counter++;
+            counter+= 1;
             cout << "counter added"<<endl;
         }
     }

@@ -7,7 +7,14 @@
 #include <windows.h>
 #include <fstream>
 #include <unistd.h>
-using namespace std;
+using std::cout;
+using std::flush;
+using std::endl;
+using std::cin;
+using std::terminate;
+using std::getline;
+using std::string;
+using std::ifstream;
 void test(){
 	 string load;
 	 load = "Loading";
@@ -53,6 +60,7 @@ terminate();
 }
 void login(){
 	string user,pass,mypass,reg;
+	reg:
 	cout << "Apakah anda sudah register? [Y/N]"<<endl;
 	cout << "Ketik Input anda: ";
 	cin >> reg;
@@ -70,10 +78,16 @@ void login(){
 		six();
 	}
 	}
-	if (reg =="N" || reg=="n"){
+	else if (reg =="N" || reg=="n"){
 		cout << "Mohon Maaf anda harus register terlebih dahulu"<<endl;
 		sleep(1);
 		terminate();
+	}
+	else{
+		cout << "Input anda salah";
+		sleep(1);
+		system("cls");
+		goto reg;
 	}
 	system("cls");
 	cout << "Login Sebagai:"<<user<<endl;
@@ -82,17 +96,39 @@ void login(){
 }
 int main(){
 	login();
-	
 	cout << "Gunakan + - / x % ^ v untuk operasi mtk" << endl;
 	long double a,c,d;
+	awal:
+	a=0;
 	cout << "Masukkan nomor: ";
 	cin >> a;
+	if (a<=0||a>0){
+	}
+	else{
+		a=1;
+		system("cls");
+		cout<<"Ini Bukan Nomor";
+		sleep(1);
+		system("cls");
+		goto awal;
+	}
 	string b;
 	line1:
 	cout << "Masukkan operasi: ";
 	cin >> b;
+	tengah:
 	cout << "Masukkan nomor: ";
 	cin >> c;
+	if (c<=0||c>0){
+	}
+	else{
+		a=0;
+		system("cls");
+		cout<<"Ini Bukan Nomor";
+		sleep(1);
+		system("cls");
+		goto tengah;
+	}
 	int i;
 	i = 1;
 	while (i == 1){
@@ -101,25 +137,33 @@ int main(){
 	if (b == "+"){
 		d = a + c;
 	}
-	if (b == "-"){
+	else if (b == "-"){
 		d = a - c;
 	}
-	if (b == "x"){
+	else if (b == "x"){
 		d = a * c;
 	}
-	if (b == "/"){
+	else if (b == "/"){
 		d = a / c;
 	}
-	if (b == "%"){
+	else if (b == "%"){
 		d = fmod(a,c);
 	}
 		if (b == "^"){
 		d = pow(a, c);
 	}
-	if (b == "v"){
+	else if (b == "v"){
 		if (c=2){
 		d = sqrt(a);
 		}
+	}
+	else{
+		b="+";
+		system("cls");
+		cout << "Operasi Anda Salah";
+		sleep(1);
+		system("cls");
+		goto line1;
 	}
 	if (d == 69){
 		cout << "nais 69 ;v"<< endl;
@@ -146,7 +190,7 @@ int main(){
     system("color fe");
     goto line2;
 	}
-	if (d == 666){
+	else if (d == 666){
 	    d = 0;
             system("cls");
             system("color 4e");

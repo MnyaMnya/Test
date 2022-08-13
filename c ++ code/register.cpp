@@ -39,7 +39,7 @@ void quit(){
 	 load = "Quitting...";
 	 cout << "\r" << load << flush;
 	 sleep (1);
-	 terminate();
+	 exit(1);
 }
 void six(){
 system("cls");
@@ -127,7 +127,8 @@ int main(){
 			if (cpass == "n" || cpass == "N")
 			{
 				cout << "Quitting.."<<endl;
-				terminate();
+				sleep(1);
+				exit(1);
 			}
 			else if (cpass == "y" || cpass == "Y")
 			{
