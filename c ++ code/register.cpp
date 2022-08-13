@@ -110,6 +110,7 @@ int main(){
 			system("cls");
 			goto linec;
 		}
+		else{}
 		ifstream txt(user+".txt");
 		cout << "Ketik Password anda: ";
 		cin >> pass;
@@ -120,7 +121,12 @@ int main(){
         system("color 4e");
 		six();
 		}
-		else {}
+		else {
+			system("cls");
+			cout<< "Username dan password anda benar";
+			sleep(2);
+			exit(1);
+		}
 	}
 	else if (reg =="R" || reg=="r")
 	{
