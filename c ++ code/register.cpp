@@ -65,20 +65,24 @@ int main(){
 	}
 	else{}
 	int size = stoi(ssize);
+	string username[size+1];
 	fstream txtuser;
 	txtuser.open("user.txt");
 	if(!txtuser.is_open()){
+		txtuser.close();
 		ofstream newlist("user.txt");
 		newlist << "default";
 		ofstream newuser("default.txt");
 		newuser << "1234";
 		newlist.close();
 		newuser.close();
+		txtuser.open("user.txt");
 	}
 	else{}
-	string username[size+1];
+	
 	for(int i=0;i<size;i++)
 	{
+		getline(txtuser,line);
 		username[i]=line;
 	}
 	line1:
@@ -139,9 +143,7 @@ int main(){
 			system("cls");
 			if (cpass == "n" || cpass == "N")
 			{
-				cout << "Quitting.."<<endl;
-				sleep(1);
-				exit(1);
+				quit();
 			}
 			else if (cpass == "y" || cpass == "Y")
 			{
