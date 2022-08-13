@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iostream>
 #include <string>
 #include <time.h>
 #include <math.h>
@@ -50,22 +49,36 @@ quit();
 
 int main(){
 	string user,pass,mypass,reg;
-	string cpass;
+	string cpass,newuser,newlist,newsize;
 	bool x;
 	fstream txtsize("size.txt");
+	if(!txtsize.is_open()){
+		ofstream newsize("size.txt");
+		newsize<<"1";
+		newsize.close();
+	}
+	else{}
 	string ssize,line;
 	getline (txtsize, ssize);
-	if(ssize == ""){
-		ssize = "0";
+	if(ssize==""){
+		ssize="1";
 	}
 	else{}
 	int size = stoi(ssize);
 	fstream txtuser;
 	txtuser.open("user.txt");
+	if(!txtuser.is_open()){
+		ofstream newlist("user.txt");
+		newlist << "default";
+		ofstream newuser("default.txt");
+		newuser << "1234";
+		newlist.close();
+		newuser.close();
+	}
+	else{}
 	string username[size+1];
 	for(int i=0;i<size;i++)
 	{
-		getline (txtuser,line);
 		username[i]=line;
 	}
 	line1:
