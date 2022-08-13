@@ -50,10 +50,29 @@ quit();
 int main(){
 	string user,pass,mypass,reg;
 	string cpass,newuser,newlist,newsize;
+	string file = "User", other = "Other";
+	string uFolder="User\\";
+	string oFolder="Other\\";
 	bool x;
-	fstream txtsize("size.txt");
+	if (CreateDirectoryA(file.c_str(), NULL) ||
+    ERROR_ALREADY_EXISTS == GetLastError()){
+	}
+	else{
+		cout <<"Error Failed to Create User Directory";
+		sleep(2);
+		quit();
+	}
+	if (CreateDirectoryA(other.c_str(), NULL) ||
+    ERROR_ALREADY_EXISTS == GetLastError()){
+	}
+	else{
+		cout <<"Error Failed to Create Other Directory";
+		sleep(2);
+		quit();
+	}
+	fstream txtsize(oFolder+"size.txt");
 	if(!txtsize.is_open()){
-		ofstream newsize("size.txt");
+		ofstream newsize(oFolder+"size.txt");
 		newsize<<"1";
 		newsize.close();
 	}
@@ -67,16 +86,16 @@ int main(){
 	int size = stoi(ssize);
 	string username[size+1];
 	fstream txtuser;
-	txtuser.open("user.txt");
+	txtuser.open(oFolder+"user.txt");
 	if(!txtuser.is_open()){
 		txtuser.close();
-		ofstream newlist("user.txt");
+		ofstream newlist(oFolder+"user.txt");
 		newlist << "default";
-		ofstream newuser("default.txt");
+		ofstream newuser(uFolder+"default.txt");
 		newuser << "1234";
 		newlist.close();
 		newuser.close();
-		txtuser.open("user.txt");
+		txtuser.open(oFolder+"user.txt");
 	}
 	else{}
 	
@@ -111,7 +130,7 @@ int main(){
 			goto linec;
 		}
 		else{}
-		ifstream txt(user+".txt");
+		ifstream txt(uFolder+user+".txt");
 		cout << "Ketik Password anda: ";
 		cin >> pass;
 		getline (txt, mypass);
@@ -154,7 +173,7 @@ int main(){
 			else if (cpass == "y" || cpass == "Y")
 			{
 
-				fstream txt(user+".txt");
+				fstream txt(uFolder+user+".txt");
 				cout << "Ketik Password anda: ";
 				cin >> pass;
 				getline (txt, mypass);
@@ -184,17 +203,17 @@ int main(){
 		}
 		else 
 		{
-			ofstream txt(user+".txt");
+			ofstream txt(uFolder+user+".txt");
 			cout << "Ketik Password anda: ";
 			cin >> pass;
 			txt << pass;
 			size += 1;
-			ofstream txtsizes("size.txt");
+			ofstream txtsizes(oFolder+"size.txt");
 			txtsizes<<size;
 			txtsizes.close();
 			txtuser.close();
 			username[size-1]= user;
-			txtuser.open("user.txt");
+			txtuser.open(oFolder+"user.txt");
 			for(int i=0;i<size;i++)
 			{
 				txtuser<<username[i]<<endl;
