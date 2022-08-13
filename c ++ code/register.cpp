@@ -10,6 +10,7 @@
 using namespace std;
 void test(){
 	 string load;
+	 system("cls");
 	 load = "Loading";
 	 cout << "\r" << load << flush;
 	 sleep (1);
@@ -26,6 +27,7 @@ void test(){
 }
 void quit(){
 	 string load;
+	 system("cls");
 	 load = "Quitting";
 	 cout << "\r" << load << flush;
 	 sleep (1);
