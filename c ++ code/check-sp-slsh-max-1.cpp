@@ -11,7 +11,6 @@ int main(){
         bool check=true;
         counter =0;
         int size = 0;
-        
         num = i;
         z=i;
         while(z<0){
@@ -27,20 +26,18 @@ int main(){
         size++;
         num = num / 10;
         }
-    for(int x=0;x<size-1;x++){
-        if(y[x]-y[x+1]==1||y[x+1]-y[x]==1||y[x]-y[x+1]==0||y[x+1]-y[x]==0){
+        for(int x=0;x<size-1;x++){
+            if(y[x]-y[x+1]==1||y[x+1]-y[x]==1||y[x]-y[x+1]==0||y[x+1]-y[x]==0){
+            }
+            else{
+                check=false;
+            }
         }
-        else{
-            check=false;
+        if(check == true){
+        cout << i<<", ";
+        result++;
         }
-      
     }
-    
-      if(check == true){
-    cout << i<<", ";
-    result++;
-        }
-}
 cout <<endl<< "Jawabanya adalah: "<<result;
 cin >> digit;
 }
