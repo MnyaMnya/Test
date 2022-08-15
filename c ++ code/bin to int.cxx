@@ -8,6 +8,9 @@ int main (){
 	line1:
 	cout << "Ketik Nilai Binary: ";
 	cin >> bin;
+	/*cout << "Biner basis brp: ";
+	cin >> b;
+	*/
 	b=2;
 	a = strlen(bin);
 	int x = a-1;
