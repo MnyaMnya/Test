@@ -16,5 +16,6 @@ itu saja dulu bye<br/>
 - [ ] Change All code to Header
 - [ ] Create a Database Program
 - [ ] Change How The Password And Username Stored
+- [ ] Fix check-nilai.cpp
 ### Side note
 <li>Yang masih memakai light theme maaf aku malas buat style nya :v</li> <br/>
