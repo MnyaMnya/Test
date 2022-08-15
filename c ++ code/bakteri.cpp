@@ -10,7 +10,7 @@ int main(){
     cin >> time;
     for(int i=1;i<=time;i++){
         b=b+a;
-        a=a+b;
+        a=a*2;
         cout << "Nilai a saat ("<<i<< ")ini adalah: "<<a<<endl;
         cout << "Nilai b saat ("<<i<< ") adalah: "<<b<<endl;
     }
