@@ -2,9 +2,12 @@
 #include <math.h>
 using namespace std;
 int main(){
-    int b,ref,digit,counter,result=0,num,timer=0,z;
+    int b,ref,digit,counter,result=0,num,timer=0,z,awal;
+    cout << "Ketik Angka Awal: ";
+    cin >> awal;
+    cout <<"Ketik Nilai Terakhir: ";
     cin >> b;
-    for (int i=1;i<=b;i++){
+    for (int i=awal;i<=b;i++){
         bool check=true;
         counter =0;
         int size = 0;
