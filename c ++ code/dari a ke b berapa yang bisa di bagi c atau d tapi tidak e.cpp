@@ -16,7 +16,7 @@ int main(){
 	cout << "Ketik nilai sisa: ";
 	cin >> x;
 	while(j <= i){
-        if (j % e == 0){
+        if (j % e == x){
 
         }
 		else if(j % k == x || j % u == x){
