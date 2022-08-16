@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int i, j, k,x,u,counter=0;
+	int i, j, k,x,u,e,counter=0;
 	line1:
 	cout << "Ketik nilai terkecil: ";
 	cin >> j;
@@ -11,10 +11,15 @@ int main(){
 	cin >> k;
     cout << "Ketik nilai pembagi ke 2: ";
     cin >> u;
+    cout << "Ketik nilai yang tidak bisa dibagi: ";
+    cin>> e;
 	cout << "Ketik nilai sisa: ";
 	cin >> x;
 	while(j <= i){
-		if(j % k == x || j % u == x){
+        if (j % e == 0){
+
+        }
+		else if(j % k == x || j % u == x){
 			counter++;
 			cout << j << "(" << counter<< "), ";
 		}
