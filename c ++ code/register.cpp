@@ -8,23 +8,7 @@
 #include <fstream>
 #include <unistd.h>
 using namespace std;
-void test(){
-	 string load;
-	 system("cls");
-	 load = "Loading";
-	 cout << "\r" << load << flush;
-	 sleep (1);
-	 load = "Loading.";
-	 cout << "\r" << load << flush;
-	 sleep (1);
-	 load = "Loading..";
-	 cout << "\r" << load << flush;
-	 sleep (1);
-	 load = "Loading...";
-	 cout << "\r" << load << flush;
-	 sleep (1);
-	 system("cls");
-}
+
 void quit(){
 	 string load;
 	 system("cls");
