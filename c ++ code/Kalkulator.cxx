@@ -95,7 +95,6 @@ void login(){
 	system("cls");
 }
 int main(){
-	login();
 	cout << "Gunakan + - / x % ^ v untuk operasi mtk" << endl;
 	long double a,c,d;
 	awal:
@@ -149,8 +148,8 @@ int main(){
 	else if (b == "%"){
 		d = fmod(a,c);
 	}
-		if (b == "^"){
-		d = pow(a, c);
+	else if (b == "^"){
+	d = pow(a, c);
 	}
 	else if (b == "v"){
 		if (c=2){
