@@ -1,2 +1,5 @@
-
+# Ignore files with extension `.class` & `.exe`
+*.class
+*.exe
+*.o
 .vscode/c_cpp_properties.json
